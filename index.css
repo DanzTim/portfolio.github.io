@@ -1,8 +1,8 @@
+* { padding: 0; margin: 0; }
+
 html {
 	font-family: "Segoe UI", helvetica, "Times New Roman", serif;
 	background-color: #fff;
-	margin: 0;
-	padding: 0;
 }
 
 body {
@@ -66,4 +66,14 @@ bolder {
 
 iframe{
 	width: 100%;
+}
+ 
+/*untuk layar device berukuran sedang*/
+@media screen and (max-width: 550px) {
+   #content {
+		width: 100%;
+		border: none;
+		padding: 20px;
+		border-radius: 0px;
+	}
 }
